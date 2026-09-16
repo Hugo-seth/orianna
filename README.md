@@ -1,6 +1,8 @@
 # 发条 · 社交媒体发布控制台
 
-面向小红书图文、国内抖音图文、原生微博和 B站动态的中文工作台。React + TypeScript 提供创作界面，本机 Node.js 服务管理图片文件、SQLite 工作空间数据，以及当前 Chrome 中的平台标签页和发布回执。
+本地优先的多平台图文发布工作台，支持小红书、抖音图文、微博与 B站动态，集成草稿管理、素材库、图片水印、账号连接和发布回执。
+
+使用 React + TypeScript 构建创作界面，Node.js + SQLite 管理本机内容与图片，通过当前 Chrome 中的平台页面完成发布。定时功能用于记录本地计划，需手动确认发布。
 
 ## 启动
 
@@ -74,3 +76,7 @@ npm start       # 使用 dist 构建，同时提供本地发布接口
 - `server/*-adapter.mjs`：小红书、抖音图文和 B站动态的网页流程。
 
 实现依据与开源项目比较见 [调研记录](docs/SOCIAL-PUBLISHING-RESEARCH.md)。示例图片来自 Unsplash，字体不可用时回退到系统字体。
+
+## 许可证
+
+本项目采用 [MIT License](LICENSE)。

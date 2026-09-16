@@ -2,9 +2,28 @@ node_modules/
 dist/
 .DS_Store
 *.tsbuildinfo
+
+# Local workspace data and browser verification artifacts
 output/
 .playwright-cli/
-.env
-.env.local
-.env.*.local
 .data/
+playwright-report/
+test-results/
+playwright/.auth/
+*.log
+*.har
+
+# Keep only the public environment template
+.env
+.env.*
+!.env.example
+
+# Local databases and private key material
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.pem
+*.key
+*.p12
+*.pfx
