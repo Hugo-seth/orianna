@@ -1,0 +1,43 @@
+.weibo-account-card{border-color:#e9ba9f;box-shadow:0 3px 16px #c27d4710;position:relative}.wb-brand{width:42px;height:42px;border-radius:11px;background:#fff0db;color:#e77e48;display:grid;place-items:center;font-weight:750;font-size:24px}.wb-connection{display:flex;gap:5px;align-items:center;color:#a69a87;font-size:10px;background:#f5f3ed;border-radius:5px;padding:5px 8px}.wb-connection>span{width:5px;height:5px;background:#b6ad9c;border-radius:50%}.wb-connection.connected{background:#edf4e8;color:#7c9965}.wb-connection.connected>span{background:#90ad77}.wb-real-badge{font-size:9px;color:#ca966b;border:1px solid #efdac8;border-radius:4px;font-weight:400;margin-left:10px;padding:3px 5px;vertical-align:middle}.wb-avatar{height:34px;width:34px;border-radius:50%;background:#f8efe0;color:#baaa8e;display:grid;place-items:center;overflow:hidden;flex-shrink:0}.wb-avatar img{width:100%;height:100%;object-fit:cover}.wb-account-actions{display:flex;gap:8px}.wb-account-actions>.primary-button{flex:1;font-size:11px;min-height:36px;padding:9px}.wb-account-actions>.secondary-button{padding:9px;min-height:36px}.weibo-account-card button:disabled{opacity:.55;cursor:wait}.wb-login-note{display:flex;gap:9px;align-items:flex-start;margin-top:16px;padding:12px;border-radius:7px;background:#fbf5e9;color:#b39b6e}.wb-login-note>p{font-size:10px;line-height:1.9}.wb-login-note button{padding:0;color:#b28152;font-size:10px;display:block;margin-top:5px}.wb-account-links{display:flex;justify-content:space-between;gap:10px;margin-top:16px}.wb-account-links button{display:flex;align-items:center;gap:4px;font-size:10px;color:#b29473;padding:0}.weibo-account-card>.wb-privacy-note{font-size:9px;display:flex;align-items:center;gap:4px;line-height:1.8;margin-top:18px;color:#a4ad98}.weibo-account-card>.wb-error{font-size:10px;color:#cc775e;background:#fcf0e9;border-radius:5px;padding:9px;line-height:1.8;margin-top:12px}.wb-disconnect{display:flex;align-items:center;gap:5px;color:#b8ac97;font-size:9px;padding:0;margin-top:12px}.wb-disconnect-confirm{background:#fff4ec;border:1px solid #efd7c5;padding:13px;border-radius:6px;margin-top:15px}.wb-disconnect-confirm>p{font-size:10px;color:#b29778;line-height:1.8}.wb-disconnect-confirm>div{display:flex;justify-content:flex-end;gap:8px;margin-top:10px}.wb-disconnect-confirm button{padding:6px 10px;min-height:29px;font-size:10px}.card-real-receipt{font-size:9px;color:#7e9769;display:flex;gap:4px;align-items:center;border-top:1px solid #eff2e9;margin-top:12px;padding-top:10px}.card-real-receipt a{display:flex;align-items:center;gap:4px}.card-real-receipt.pending{color:#bf9867}.account-notice .wb-note-icon{color:#d7996a}.wb-service-note{font-size:10px;line-height:1.8;color:#a4aa98;display:flex;align-items:center;gap:8px;margin-top:17px}
+.wb-dismissible-error { display: flex; align-items: flex-start; gap: 8px; }
+.wb-dismissible-error > span { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.wb-error-close { display: grid; place-items: center; width: 26px; height: 26px; padding: 0; flex-shrink: 0; border-radius: 4px; color: inherit; }
+.wb-error-close:hover { background: #cc775e18; }
+.platform-qr { display: flex; flex-direction: column; align-items: center; gap: 10px; margin-top: 16px; padding: 18px 12px; border: 1px solid #e6e7e0; border-radius: 12px; background: #fafbf8; text-align: center; }
+.platform-qr img { width: 176px; height: 176px; object-fit: contain; background: white; border-radius: 8px; }
+.platform-qr strong { color: #3e4b37; font-size: 13px; }
+.platform-qr p { margin: 0; font-size: 11px; line-height: 1.7; }
+.platform-session-message { margin: 12px 0; font-size: 12px !important; line-height: 1.7; color: #72756c; overflow-wrap: anywhere; }
+.platform-window-fallback { display: flex; align-items: center; gap: 5px; margin-top: 12px; background: none; border: 0; color: #616d56; font-size: 11px; cursor: pointer; }
+.wb-account-links { flex-wrap: wrap; gap: 8px; }
+.chrome-connection-guide { margin-bottom: 22px; padding: 24px; border: 1px solid #e1e7dc; border-radius: 12px; background: #fff; }
+.chrome-connection-heading { display: flex; align-items: flex-start; gap: 12px; }
+.chrome-connection-heading > span { display: grid; place-items: center; width: 38px; height: 38px; flex-shrink: 0; border-radius: 10px; color: #788d64; background: #f0f4e9; }
+.chrome-connection-heading > div { flex: 1; min-width: 0; }
+.chrome-connection-heading h2 { margin: 0; color: #3f4a39; font-size: 17px; font-weight: 600; }
+.chrome-connection-heading p { margin-top: 5px; font-size: 12px; color: #7f8878; line-height: 1.8; }
+.chrome-connection-toggle { display: inline-flex; align-items: center; align-self: center; flex-shrink: 0; gap: 5px; min-height: 34px; padding: 7px 10px; border: 1px solid #e1e7dc; border-radius: 7px; background: #fff; color: #71835e; font-size: 12px; white-space: nowrap; }
+.chrome-connection-toggle:hover { background: #f0f4e9; border-color: #bdcbaa; }
+.chrome-connection-toggle:focus-visible { outline: 2px solid #829772; outline-offset: 3px; }
+.chrome-connection-toggle[aria-expanded=true] svg { transform: rotate(180deg); }
+.chrome-connection-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; list-style: none; margin: 22px 0; padding: 0; }
+.chrome-connection-steps li { display: flex; align-items: flex-start; gap: 9px; }
+.chrome-connection-steps li > span { padding-top: 1px; color: #a5b392; font-size: 12px; font-weight: 650; }
+.chrome-connection-steps strong { color: #58624f; font-size: 12px; font-weight: 550; }
+.chrome-connection-steps p { margin-top: 5px; color: #858d7e; font-size: 11px; line-height: 1.8; }
+.chrome-connection-address { display: flex; align-items: center; gap: 14px; }
+.chrome-connection-address > label { color: #6e7963; font-size: 11px; flex-shrink: 0; }
+.chrome-connection-address > div { display: flex; flex: 1; gap: 8px; max-width: 520px; min-width: 0; }
+.chrome-connection-address input { flex: 1; min-width: 0; width: 100%; padding: 10px 12px; border: 1px solid #dfe5d8; border-radius: 7px; outline-color: #91a77a; background: #f9fbf6; color: #4d5d40; font: 12px ui-monospace, monospace; }
+.chrome-connection-address button { flex-shrink: 0; }
+.chrome-connection-feedback { margin-top: 10px; color: #71835e; font-size: 11px; line-height: 1.8; }
+.wb-account-actions > .primary-button { white-space: normal; line-height: 1.5; }
+.wb-account-actions svg, .wb-login-note > svg, .wb-privacy-note > svg { flex-shrink: 0; }
+@media (max-width: 720px) {
+  .chrome-connection-guide { padding: 18px; }
+  .chrome-connection-steps { grid-template-columns: 1fr; gap: 15px; margin: 19px 0; }
+  .chrome-connection-address { align-items: stretch; flex-direction: column; gap: 8px; }
+  .chrome-connection-address > div { max-width: none; }
+  .chrome-connection-address input { padding: 9px; font-size: 11px; }
+  .chrome-connection-address button { padding: 9px 11px; font-size: 11px; }
+}
